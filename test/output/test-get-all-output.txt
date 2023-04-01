@@ -1,0 +1,23 @@
+{
+   "data" : [
+      {
+         "book_author" : "Mikhail Bulgakov",
+         "book_id" : 5,
+         "book_title" : "Master and Margarita",
+         "description" : "Fiction"
+      },
+      {
+         "book_author" : "Stanislaw Lem",
+         "book_id" : 6,
+         "book_title" : "The Cyberiad",
+         "description" : "Humor"
+      },
+      {
+         "book_author" : "Fyodor Dostoevsky",
+         "book_id" : 7,
+         "book_title" : "The Brothers Karamazov",
+         "description" : "Fiction"
+      }
+   ],
+   "status" : 200
+}

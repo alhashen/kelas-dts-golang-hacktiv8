@@ -1,0 +1,9 @@
+{
+   "data" : {
+      "book_author" : "Fyodor Dostoevsky",
+      "book_id" : 8,
+      "book_title" : "The Brothers Karamazov",
+      "description" : "Fiction"
+   },
+   "status" : 200
+}

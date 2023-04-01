@@ -1,0 +1,15 @@
+GET valid book id
+{
+   "data" : {
+      "book_author" : "Stanislaw Lem",
+      "book_id" : 6,
+      "book_title" : "The Cyberiad",
+      "description" : "Humor"
+   },
+   "status" : 200
+}
+GET invalid book id
+{
+   "message" : "sql: no rows in result set",
+   "status" : 404
+}

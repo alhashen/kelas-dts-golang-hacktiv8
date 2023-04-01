@@ -1,0 +1,10 @@
+DELETE valid book id
+{
+   "message" : "Deleted data amount: 1",
+   "status" : 200
+}
+DELETE invalid book id
+{
+   "message" : "Record not found!",
+   "status" : 404
+}
