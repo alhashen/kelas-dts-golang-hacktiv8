@@ -1,0 +1,22 @@
+GET valid book id
+{
+   "data" : {
+      "book_author" : "Stanislaw Lem",
+      "book_id" : 18,
+      "book_title" : "The Cyberiad",
+      "created_at" : "2023-04-02T21:47:00.82958+07:00",
+      "description" : "Science Fiction",
+      "updated_at" : "2023-04-02T21:47:00.829727+07:00"
+   },
+   "status" : 200
+}
+GET invalid book id
+{
+   "message" : "record not found",
+   "status" : 404
+}
+GET invalid book id with bad params
+{
+   "message" : "strconv.Atoi: parsing \"vy\": invalid syntax",
+   "status" : 500
+}

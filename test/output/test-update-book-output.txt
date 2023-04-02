@@ -1,0 +1,29 @@
+[LOG] book with id 18 before the update
+{
+   "data" : {
+      "book_author" : "Stanislaw Lem",
+      "book_id" : 18,
+      "book_title" : "The Cyberiad",
+      "created_at" : "2023-04-02T21:47:00.82958+07:00",
+      "description" : "Philosophical Fiction",
+      "updated_at" : "2023-04-02T21:53:18.764953+07:00"
+   },
+   "status" : 200
+}
+[LOG] book with id 18 after the update
+{
+   "data" : {
+      "book_author" : "Stanislaw Lem",
+      "book_id" : 18,
+      "book_title" : "The Cyberiad",
+      "created_at" : "2023-04-02T21:47:00.82958+07:00",
+      "description" : "Humor, Satire, Science Fiction",
+      "updated_at" : "2023-04-02T21:54:07.882643+07:00"
+   },
+   "status" : 200
+}
+[LOG] UPDATE book with invalid id
+{
+   "message" : "Record not found!",
+   "status" : 404
+}

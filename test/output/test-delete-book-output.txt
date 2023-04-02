@@ -1,0 +1,10 @@
+DELETE book with valid id
+{
+   "data" : "Book with id: 16 deleted successfully",
+   "status" : 200
+}
+DELETE book with invalid id
+{
+   "message" : "Record not found!",
+   "status" : 404
+}

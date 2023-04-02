@@ -1,0 +1,41 @@
+CREATE 3 books
+{
+   "data" : {
+      "book_author" : "Fyodor Dostoevsky",
+      "book_id" : 16,
+      "book_title" : "The Brothers Karamazov",
+      "created_at" : "2023-04-02T21:47:00.60399+07:00",
+      "description" : "Fiction",
+      "updated_at" : "2023-04-02T21:47:00.604611+07:00"
+   },
+   "status" : 200
+}
+{
+   "data" : {
+      "book_author" : "Mikhail Bulgakov",
+      "book_id" : 17,
+      "book_title" : "Master and Margarita",
+      "created_at" : "2023-04-02T21:47:00.78274+07:00",
+      "description" : "Fiction",
+      "updated_at" : "2023-04-02T21:47:00.78337+07:00"
+   },
+   "status" : 200
+}
+{
+   "data" : {
+      "book_author" : "Stanislaw Lem",
+      "book_id" : 18,
+      "book_title" : "The Cyberiad",
+      "created_at" : "2023-04-02T21:47:00.82958+07:00",
+      "description" : "Science Fiction",
+      "updated_at" : "2023-04-02T21:47:00.829727+07:00"
+   },
+   "status" : 200
+}
+
+ADD blank title
+
+{
+   "message" : "book_author: cannot be blank; description: cannot be blank.",
+   "status" : 400
+}
