@@ -1,0 +1,88 @@
+{
+  "water": 96,
+  "wind": 1,
+  "id": 101
+}
+status water: bahaya
+status wind: aman 
+
+{
+  "water": 65,
+  "wind": 48,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 68,
+  "wind": 11,
+  "id": 101
+}
+status water: bahaya
+status wind: siaga 
+
+{
+  "water": 33,
+  "wind": 16,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 33,
+  "wind": 53,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 94,
+  "wind": 93,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 59,
+  "wind": 60,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 27,
+  "wind": 46,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 41,
+  "wind": 37,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 9,
+  "wind": 45,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
+{
+  "water": 65,
+  "wind": 85,
+  "id": 101
+}
+status water: bahaya
+status wind: bahaya 
+
