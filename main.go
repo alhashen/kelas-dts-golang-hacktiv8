@@ -27,13 +27,12 @@ func main() {
     rnd, rnd2 int
     req *http.Request
     res *http.Response
-    client *http.Client
     json_req []byte
-
     status_water, status_wind string
-
     result Response
     err error
+    
+    client = &http.Client{Timeout: time.Duration(60) * time.Second}
   )
 
   data := make(map[string]int)
@@ -46,7 +45,6 @@ func main() {
     data["wind"] = rnd2
 
     json_req, err = json.Marshal(data)
-    client = &http.Client{Timeout: time.Duration(60) * time.Second}
     if err != nil {
       log.Fatalln(err)
     }
